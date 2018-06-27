@@ -1,0 +1,72 @@
+.main-container{
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.todo-List{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    background-color: rgba(216, 170, 216, 0.719);
+}
+.todo-List h2, p{
+    margin: 0;
+}
+.input-btn{
+    height: 40px;
+    /* border: 1px solid red; */
+}
+.input-btn input{
+    width: 30%;
+    height: 80%;
+    margin-right: 10px;
+    font-size: 100%;
+    border-radius: 3%;
+    box-shadow: none;
+}
+
+.input-btn button{
+    width: 10%;
+    height: 80%;
+    font-size: 100%;
+    border-radius: 3%;
+    background-color: blanchedalmond
+}
+
+.todo li{
+    width: 60%;
+    height: 40px;
+    margin: 5px auto;
+    text-align: left;
+    /* border: 1px solid blue; */
+}
+.two-btn{
+    display: flex;
+    flex-direction: column;
+    float:right;
+}
+.todo button[type='button']{
+    width: 70px;  
+    float: right;
+}
+.todo ol button{
+    float: right;
+    font-weight: 800;
+    color: rgb(58, 63, 92);
+}
+.complete{
+    color: green;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.incomplete{
+    color: rgb(2, 2, 63);
+}
+.nav-btn{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-btn button{
+    width: 70px;
+    height: 25px;
+    color: red;
+}
